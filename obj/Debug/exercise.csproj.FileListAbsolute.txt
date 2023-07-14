@@ -1,0 +1,3 @@
+C:\Users\user\OneDrive\exercise\exercise\exercise\obj\Debug\exercise.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\exercise\exercise\exercise\obj\Debug\exercise.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\OneDrive\exercise\exercise\exercise\obj\Debug\exercise.csproj.CoreCompileInputs.cache
