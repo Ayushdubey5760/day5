@@ -1,3 +1,8 @@
 C:\Users\user\OneDrive\exercise\exercise\exercise\obj\Debug\exercise.csproj.AssemblyReference.cache
 C:\Users\user\OneDrive\exercise\exercise\exercise\obj\Debug\exercise.csproj.SuggestedBindingRedirects.cache
 C:\Users\user\OneDrive\exercise\exercise\exercise\obj\Debug\exercise.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\exercise\exercise\exercise\bin\Debug\exercise.exe.config
+C:\Users\user\OneDrive\exercise\exercise\exercise\bin\Debug\exercise.exe
+C:\Users\user\OneDrive\exercise\exercise\exercise\bin\Debug\exercise.pdb
+C:\Users\user\OneDrive\exercise\exercise\exercise\obj\Debug\exercise.exe
+C:\Users\user\OneDrive\exercise\exercise\exercise\obj\Debug\exercise.pdb

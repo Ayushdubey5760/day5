@@ -12,69 +12,85 @@ namespace exercise
         static void Main(string[] args)
         {
             ArrayList fruits = new ArrayList();
-            { "apple" , "cherry" , "banana" ,"date" , "elderberry" }
+            fruits.Add("apple");
+            fruits.Add("cherry");
 
-            Console.WriteLine("Total number of elements is : " + fruits.count);
+            fruits.Add("banana");
+
+            fruits.Add("date");
+
+            fruits.Add("elderberry");
+
+
+            Console.WriteLine("Total number of elements is : " + fruits.Count);
+            foreach (var item in fruits)
+            {
+                Console.WriteLine(item);
+            }
 
             Console.WriteLine("\n");
 
-            Console.WriteLine("1. Insert Item \t 2. Remove Item\t Search Item");
 
-            int res = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Input Item");
-
-            string item = Console.ReadLine();
-
-            switch (res)
+            while (true)
             {
-                case 1:
-                    {
-                        fruits.Add(item);
-                        break;
-                    }
-                case 2:
-                    {
-                        fruits.Remove(item);
-                        break;
-                    }
-                case 3:
-                    {
-                        if (fruits.Contains(items))
+                Console.WriteLine("add. Insert Item \t remove. Remove Item\t Search. search Item");
+
+                string res = Console.ReadLine();
+
+                Console.WriteLine("Input Item");
+
+                string item = Console.ReadLine();
+
+                switch (res)
+                {
+                    case "add":
                         {
-                            Console.WriteLine(item);
+                            Console.WriteLine("Enter Index");
+                            int index = int.Parse(Console.ReadLine());
+                            fruits.Insert(index, item);
+                            Console.WriteLine("Item Added");
+
+                            break;
                         }
-                        else
+                    case "remove":
                         {
-                            Console.WriteLine(item Not Found);
+                            fruits.Remove(item);
+                            break;
                         }
-                        break;
+                    case "search":
+                        {
+                            if (fruits.Contains(item))
+                            {
+                                Console.WriteLine(item);
+                            }
+                            else
+                            {
+                                Console.WriteLine("item Not Found");
+                            }
+                            break;
 
-                    }
-                default:
-                    {
-                        Console.WriteLine("Invalid operation");
-                        break;
+                        }
+                    default:
+                        {
+                            Console.WriteLine("Invalid operation");
+                            break;
 
-                    }
+                        }
 
-    }
+                }
 
-}
-            
-            
-
-
-
-
-
-
-            
-
-
-
+            }
 
 
+
+
+
+
+
+
+        } 
+   
 
 
             }
@@ -85,5 +101,5 @@ namespace exercise
 
 
         }
-    }
-}
+    
+
